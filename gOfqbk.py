@@ -14,6 +14,3 @@ def dos():
   
 while True:
  threading.Thread(target=dos).start()
-    
-except KeyboardInterrupt:
-	print("Script Stopped [ctrl + c]... Shutting down")
