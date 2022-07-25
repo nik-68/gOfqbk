@@ -20,22 +20,6 @@ import urllib.request
 import os
 import sys
 
-os.system("clear")
-print("сейчас начнётся загрузка....")
-time.sleep(2.5)
-print(colored("█▒▒▒▒▒▒▒▒▒ > ПОДГОТОВКА УСТРОЙСТВА К ЗАПУСКУ УТИЛИТЫ",'red'))
-print(colored("10%",'yellow'))
-time.sleep(2.5)
-print(colored("███▒▒▒▒▒▒▒ > ВЫЧИСЛЕНИЕ РАЗМЕРОВ...",'red'))
-print(colored("30%", 'yellow'))
-time.sleep(2.5)
-print(colored("███████▒▒▒ > ПОЧТИ ГОТОВО...",'red'))
-print(colored("50%", 'yellow'))
-time.sleep(2.5)
-print(colored("██████████ > ✔ ЗАПУСК УСПЕШНЫЙ ✔",'green' ))
-print(colored("100%",'green' ))
-time.sleep(2.5)
-
 print('''
 
 DDOS HTTP
@@ -473,7 +457,23 @@ useragents=["AdsBot-Google ( http://www.google.com/adsbot.html)",
 			"Wget/1.9 cvs-stable (Red Hat modified)",
 			"wii libnup/1.0",
 			]
+os.system("clear")
+print("сейчас начнётся загрузка....")
+time.sleep(2.5)
+print(colored("█▒▒▒▒▒▒▒▒▒ > ПОДГОТОВКА УСТРОЙСТВА К ЗАПУСКУ УТИЛИТЫ",'red'))
+print(colored("10%",'yellow'))
+time.sleep(2.5)
+print(colored("███▒▒▒▒▒▒▒ > ВЫЧИСЛЕНИЕ РАЗМЕРОВ...",'red'))
+print(colored("30%", 'yellow'))
+time.sleep(2.5)
+print(colored("███████▒▒▒ > ПОЧТИ ГОТОВО...",'red'))
+print(colored("50%", 'yellow'))
+time.sleep(2.5)
+print(colored("██████████ > ✔ ЗАПУСК УСПЕШНЫЙ ✔",'green' ))
+print(colored("100%",'green' ))
+time.sleep(2.5)
 
+print("🅳🅴🅳 🆃🆁🅾🆈🅴🆁🆂 🆃🅴🅰🅼")
 
 def starturl(): # in questa funzione setto l'url per renderlo usabile per il futuro settaggio delle richieste HTTP.
 	global url
