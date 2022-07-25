@@ -484,9 +484,8 @@ time.sleep(2.5)
 print(colored("██████████ > ✔ ЗАПУСК УСПЕШНЫЙ ✔",'green' ))
 print(colored("100%",'green' ))
 time.sleep(2.5)
-os.system("clear")
 
-print("🅳🅴🅳 🆃🆁🅾🆈🅴🆁🆂 🆃🅴🅰🅼")
+print("🅓🅔🅓🅒🅞🅓🅔 🆃🅴🅰🅼")
 
 def starturl(): # in questa funzione setto l'url per renderlo usabile per il futuro settaggio delle richieste HTTP.
 	global url
