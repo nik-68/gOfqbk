@@ -474,22 +474,18 @@ print("З А Г Р У З К А....")
 time.sleep(2.5)
 print(colored("█▒▒▒▒▒▒▒▒▒ > ПОДГОТОВКА К ЗАПУСКУ УТИЛИТЫ",'red'))
 print(colored("10%",'yellow'))
-
 time.sleep(2.5)
 print(colored("███▒▒▒▒▒▒▒ > ВЫЧИСЛЕНИЕ РАЗМЕРОВ...",'red'))
 print(colored("30%", 'yellow'))
-
 time.sleep(2.5)
 print(colored("███████▒▒▒ > ПОЧТИ ГОТОВО...",'red'))
 print(colored("50%", 'yellow'))
-
 time.sleep(2.5)
 print(colored("██████████ > ✔ ЗАПУСК УСПЕШНЫЙ ✔",'green' ))
 print(colored("100%",'green' ))
-
 time.sleep(2.5)
 
-print("🅓🅔🅓🅒🅞🅓🅔 🆃🅴🅰🅼")
+print(colored( '''🅓🅔🅓🅒🅞🅓🅔''','red'))
 
 def starturl(): # in questa funzione setto l'url per renderlo usabile per il futuro settaggio delle richieste HTTP.
 	global url
