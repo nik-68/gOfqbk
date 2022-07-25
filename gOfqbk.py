@@ -20,9 +20,6 @@ import urllib.request
 import os
 import sys
 
-headers = {
-    'User-Agent' : random.choice(users)
-}
 os.system("clear")
 print("сейчас начнётся загрузка....")
 time.sleep(2.5)
